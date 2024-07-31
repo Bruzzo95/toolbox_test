@@ -2,6 +2,8 @@
 
 Este proyecto utiliza Docker Compose para orquestar dos subproyectos: uno para el backend (`1_api`) y otro para el frontend (`2_front`). Sigue las instrucciones a continuación para instalar las dependencias y ejecutar los contenedores.
 
+Nota: Asegúrate de tener Docker y Docker Compose instalados en tu sistema antes de seguir estos pasos.
+
 ## Instalación de dependencias
 
 1. Navega al directorio del backend e instala las dependencias:
@@ -20,7 +22,7 @@ Este proyecto utiliza Docker Compose para orquestar dos subproyectos: uno para e
 
 1. Regresa al directorio raíz del proyecto:
     ```bash
-    cd ../..
+    cd ..
     ```
 
 2. Ejecuta el siguiente comando para construir y levantar los contenedores:
