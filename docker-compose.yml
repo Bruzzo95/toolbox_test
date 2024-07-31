@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./1_api # Ruta al Dockerfile del backend
+    ports:
+      - "5000:5000" # Mapea el puerto del contenedor al puerto local
+    environment:
+      - NODE_ENV=development
+    volumes:
+      - ./1_api:/app # Sincroniza el código fuente
+
+  frontend:
+    build:
+      context: ./2_front # Ruta al Dockerfile del frontend
+    ports:
+      - "3000:3000" # Mapea el puerto del contenedor al puerto local
+    depends_on:
+      - backend # Asegúrate de que el backend esté corriendo primero
+    environment:
+      - REACT_APP_API_URL=http://localhost:5000 # URL del backend
+    volumes:
+      - ./2_front:/app # Sincroniza el código fuente
