@@ -1,6 +1,6 @@
 # Proyecto Toolbox Test
 
-Este proyecto utiliza Docker Compose para levantar dos subproyectos: uno para el backend (`1_api`) y otro para el frontend (`2_front`). Sigue las instrucciones a continuación para instalar las dependencias y ejecutar los contenedores.
+Este proyecto utiliza Docker Compose para levantar dos subproyectos: uno para el backend (**`1_api`**) y otro para el frontend (**`2_front`**). Sigue las instrucciones a continuación para instalar las dependencias y ejecutar los contenedores.
 
 **Nota:** Asegúrate de tener Docker y Docker Compose instalados en tu sistema antes de seguir estos pasos. Si vas a correr la aplicación en Docker Desktop (Windows), debes ejecutar el comando con Git Bash. Si quieres usar PowerShell, sigue las instrucciones a continuación.
 
@@ -8,9 +8,7 @@ Este proyecto utiliza Docker Compose para levantar dos subproyectos: uno para el
 
 ### Con Git Bash (Recomendado)
 
-1. Abre Git Bash.
-2. Navega al directorio raíz del proyecto.
-3. Ejecuta el siguiente comando para instalar las dependencias y levantar los contenedores:
+1. Ejecuta el siguiente comando para instalar las dependencias y levantar los contenedores:
 
     ```bash
     ./deploy.sh
@@ -18,13 +16,7 @@ Este proyecto utiliza Docker Compose para levantar dos subproyectos: uno para el
 
 ### Con PowerShell
 
-1. Abre PowerShell y navega al directorio raíz del proyecto:
-
-    ```powershell
-    cd D:\toolbox_test
-    ```
-
-2. Ejecuta el script utilizando WSL (Windows Subsystem for Linux):
+1. Ejecuta el script utilizando WSL (Windows Subsystem for Linux):
 
     ```powershell
     wsl bash ./deploy.sh
