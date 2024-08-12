@@ -28,9 +28,9 @@ Este proyecto utiliza Docker Compose para levantar dos subproyectos: uno para el
 
 Cuando hayas terminado de probar el proyecto, puedes dar de baja los contenedores ejecutando:
 
-    ```bash
-    docker-compose down
-    ```
+    
+    docker-compose down 
+    
 
 ## Puertos
 
