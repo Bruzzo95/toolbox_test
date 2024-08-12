@@ -30,7 +30,7 @@ Cuando hayas terminado de probar el proyecto, puedes dar de baja los contenedore
 
     ```bash
     docker-compose down
-    ```
+    
 
 ## Puertos
 
